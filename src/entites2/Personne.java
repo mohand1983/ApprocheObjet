@@ -7,9 +7,13 @@ public class Personne {
 	public String prenom;
 	public String AdressePostale;
 		// le constructeur
-	public Personne() {
-	
+	public Personne(String nom, String prenom, String adressePostale) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
+		AdressePostale = adressePostale;
 	}
+	
 	
 
 }

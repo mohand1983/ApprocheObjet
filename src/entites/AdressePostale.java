@@ -9,8 +9,12 @@ public class AdressePostale {
 	public String ville;
 	// le constructeur
 	
-	public AdressePostale() {
-	
+	public AdressePostale(int numeroDeRue, String libelleDeLaRue, String codePostale, String ville) {
+		super();
+		this.numeroDeRue = numeroDeRue;
+		this.libelleDeLaRue = libelleDeLaRue;
+		this.codePostale = codePostale;
+		this.ville = ville;
 	}
 	
 	
