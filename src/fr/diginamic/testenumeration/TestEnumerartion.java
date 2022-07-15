@@ -13,10 +13,10 @@ public class TestEnumerartion {
 		Saison SaisonTrouvée=Saison.valueOf(nom);
 		System.out.println("saison trouvée pour ete: " +SaisonTrouvée.afficherSaison());
 
-		String libelleToFind="Hivers";
-		SaisonTrouvée=Saison.getSaison(libelleToFind);
+		String libelleToFind="Hiver";
+		Saison saisonTrouvée=Saison.getSaison(libelleToFind);
 		
-		System.out.println("la saison qui a pour libellé");
+		System.out.println("saison trouvée pour Hiver: " +SaisonTrouvée);
 	}
 
 }
