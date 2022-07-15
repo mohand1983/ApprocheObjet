@@ -19,6 +19,16 @@ public class TestSetString {
 		pays.add("Inde");
 	//Recherchez le pays dans cette liste qui a le plus grand nombre de lettres
 		//TODO	.....
+		String paysLePlusLong="";
+		for (String p : pays) {
+			if(p.length()>paysLePlusLong.length()) {
+				paysLePlusLong=p;
+			}
+			System.out.println("le pays le plus long  " +p);
+		}
+	
+		
+		
 	//Supprimez ce pays
 		
 		pays.remove(pays);

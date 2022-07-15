@@ -31,7 +31,7 @@ public class Pays {
 	public static void main(String[] args) {
 		
 		HashSet<String> pays=new HashSet<>();
-		pays.add("USA",12,200);
+		pays.add("USA");
 		pays.add("France");
 		pays.add("Allemagne");
 		pays.add("UK");

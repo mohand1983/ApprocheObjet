@@ -34,8 +34,9 @@ public class TestSetDouble {
 				System.out.println(test1);
 				}
 		//Recherchez le plus grand élément de la collection
+		
 			
-			Double max = Double.MAX_VALUE;
+			Double max = Double.MIN_VALUE;
 			for (Double doubles : test) {
 				if(doubles>max) 
 					max=doubles;
@@ -46,7 +47,7 @@ public class TestSetDouble {
                      + max);
 			 
 		//Supprimez le plus petit élément de la collection
-			 Double min = Double.MIN_VALUE;
+			 Double min = Double.MAX_VALUE;
 				for (Double doubles : test) {
 					if(doubles<min) 
 						min=doubles; 
